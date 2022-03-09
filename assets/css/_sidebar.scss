@@ -1,0 +1,63 @@
+.sidebar{
+   
+    width: 300px;
+    height: 100vh;
+    padding: 50px 0px 20px 50px;
+    background-color: #F9F9FF;
+    overflow: auto;
+    border-right: 2px solid rgba(0,0,0,.05);
+transition: all .3s ease;
+position: fixed;
+z-index: 9999;
+    @media (max-width:991px) {
+
+
+display: none;
+  }
+    .sidebar-list{
+        padding: 60px 0 ;
+        li{
+            margin: 10px 0 ;
+            .icon{
+                color: var(--main-color);
+          
+            }
+            a{
+                text-decoration: none;
+                font-weight: bold;
+                color:#353353;
+             font-size: 17px;
+          
+            }
+            a.link{
+                text-align: left;
+                transition: .3s all ease;
+                padding-left: 10px;
+                &:hover{
+                    color: var(--main-color);
+                }
+                
+            }
+        }
+    }
+    .sidebar-footer{
+    p{
+      color: #9C9AB3
+    }
+    }
+  
+ 
+    .list-group-item {
+        position: static;
+        display:inline;
+        padding: 0;
+        color: #212529;
+        text-decoration: none;
+        background-color:transparent;
+        border: 0;
+         &:focus{
+                    color: var(--main-color);
+                }
+    }
+  
+}

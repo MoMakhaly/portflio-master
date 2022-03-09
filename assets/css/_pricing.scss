@@ -1,0 +1,104 @@
+.pricing{
+    padding-bottom: 50px;
+       background-image: url(../images/dots-bg.svg);
+       background-position: top left;
+       background-repeat: no-repeat;
+       .pricing-title{
+           font-weight: bold;
+           font-size: 40px;
+           color:var(--dark-color);
+           margin-bottom: 50px;
+       }
+   .card{  
+             box-shadow: 0px 5px 20px 0px rgba(0,0,0,.25);
+             border: 0;
+             border-radius: 20px;
+             padding: 30px 20px  ;
+             margin-bottom: 20px;
+   @media (min-width:991px) {
+       padding: 40px 28px 40px 28px;
+   }
+   .card-img{
+    width:70px;
+    text-align: center;
+    margin: auto;
+       }
+             .card-body{
+               
+                      .card-title{
+                  margin: 15px 0 ;
+                  font-size: 30px;
+                  font-weight: bold;
+                  color: var(--dark-color);
+             @media (min-width:768px) and (max-width:991) {
+            font-size: 28px;
+               }
+                      }
+                      .card-text,.card-text-email{
+                          color: #5E5C7F;
+                          font-size: 17px;
+                       //    @media (min-width:768px) and (max-width:991) {
+                       //   font-size: 16px;
+                       //  }
+                  }
+               h4{
+                   font-weight: bold;
+                   color: #454360;
+                   span:first-child{
+                       font-size: 17px;
+                       font-weight: bold;
+                       position: relative;
+                       right: -4px;
+                       bottom: 18px;
+                   }
+                   span:last-of-type{
+                       font-size: 40px;
+                       margin: 0 5px;
+                   }
+                   p.month{
+                     font-size: 18px;
+                       font-weight: normal;
+                       display: inline-block;
+                       font-weight: 600;
+                   }
+               }
+               .card-link{
+                   text-decoration: none;
+                   background-color: var(--main-color);
+                   color: #fff;
+                   display: block;
+                  padding: 8px 20px;
+                  border-radius: 30px;
+                 width:160px;
+                  font-weight: bold;
+                  font-size: 17px;
+                  margin: auto;
+               }
+           }
+   }
+   .card2{
+       padding: 60px 0 ;
+       position: relative;
+       z-index: 99;
+       bottom: 20px;
+       @media (max-width:768px) {
+           bottom: 0;
+       }
+       .badge{
+           position: absolute;
+           background: #6C6CE5;
+           padding: 10px 15px;
+           position: absolute;
+           top: 0;
+           left: 20px;
+           border-top-left-radius: 16px;
+           border-bottom-left-radius: 16px;     
+           top: 43px;
+           transform: rotate(-90deg);   
+           font-size: 14px;
+       }
+   }
+   .pricing-space{
+       padding: 0;
+   }
+   }

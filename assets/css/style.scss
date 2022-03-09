@@ -1,0 +1,59 @@
+body{
+    font-family: 'Cairo', sans-serif;
+ 
+}
+:root{
+    --main-color: #FF4C60;
+    --dark-color :#353353;
+   
+}
+.parent{
+    display: flex;
+}
+@import "sidebar";
+@import "intro";
+@import "about";
+@import "count";
+@import "services";
+@import "experience";
+@import "work";
+@import "pricing";
+@import "clients";
+@import "testimonials";
+@import "posts";
+@import "touch";
+// start content
+.content{
+    background-color: #F9F9FF;
+    width: 100%;
+    height: 100vh;
+    // overflow: auto;
+    scroll-behavior: smooth;
+    padding: 0 30px;
+   @media (min-width:991px) {
+    padding-left: 320px;
+   }
+
+}
+.scroll-top {
+ background-color:    rgba(0, 0, 0, 0.2);
+ color: #fff;
+ width: 40px;
+ height: 40px;;
+ text-align: center;
+ line-height: 40px;
+ border-radius: 50%;
+ position: fixed;
+ right: 30px;
+ bottom: 30px;
+ transition: .3s all ease;
+ display: none;
+ a{
+     display: block;
+     color: #fff;
+ }
+ &:hover{
+     background-color: var(--main-color);
+     cursor: pointer;
+ }
+}

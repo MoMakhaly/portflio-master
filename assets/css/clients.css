@@ -1,0 +1,87 @@
+.clients {
+  padding-bottom: 50px;
+  background: url(../images/dots-bg.svg);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.clients .clients-title {
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--dark-color);
+  margin-bottom: 40px;
+}
+
+.clients .owl-carousel .item {
+  margin: auto;
+}
+
+.clients .owl-carousel .item .item-img {
+  height: 100px;
+}
+
+.clients .owl-carousel .item h4 {
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 10px;
+  color: #454360;
+}
+
+.clients .owl-carousel .item p {
+  color: #8B88B1;
+  font-weight: 600;
+}
+
+.clients .owl-carousel .item .item-desc {
+  background-color: #fff;
+  width: 70%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  color: #5E5C7F;
+  font-size: 18px;
+  position: relative;
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .clients .owl-carousel .item .item-desc {
+    width: 90%;
+  }
+}
+
+.clients .owl-carousel .item .item-desc::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid #fff;
+  position: absolute;
+  left: -15px;
+  top: 25%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  top: -17px;
+  left: 50%;
+}
+
+.clients .owl-carousel .item .item-desc .fire-img {
+  width: 18px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.clients .owl-dots .owl-dot span {
+  width: 12px;
+  height: 6px;
+}
+
+.clients .owl-dots .owl-dot.active span {
+  background: var(--main-color);
+  height: 6px;
+  width: 20px;
+}
+/*# sourceMappingURL=clients.css.map */

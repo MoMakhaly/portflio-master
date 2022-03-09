@@ -1,0 +1,79 @@
+//start .touch
+.touch{
+    padding-bottom: 70px;
+    background-image: url(../images/dots-bg.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    .touch-title{
+        font-weight: bold;
+        font-size: 40px;
+        color:var(--dark-color);
+        margin-bottom: 50px;
+    }
+    .touch-content{
+        background: url(../images/map.svg) no-repeat  left top;
+        .touch-desc{
+            h3{
+                font-weight: bold;
+                font-size: 23px;
+                color: #454360;
+            }
+            p{
+                color: #5E5C7F;
+                font-size: 17px;
+                font-weight: 600;
+                a{
+                    color: var(--main-color);
+                    text-decoration: none;
+                   transition: .4s all ease;
+                   &:hover{
+                       color:  #5E5C7F;;
+                   }
+                }
+            }
+        }
+    }
+.touch-feedback{
+.form-control{
+        padding: 17px 30px;
+        border-radius: 30px;
+        border-color: #fff;
+       box-shadow:  0px 5px 20px 0px rgba(69, 67 ,96 , .25);
+    margin-bottom: 30px;
+    color: #888;
+   &::placeholder{
+        color: #888;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    @media (max-width:575px) {
+        padding: 8px 30px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+        }
+        textarea{
+           height: 150px;
+     
+        }
+}
+label {
+     position: relative;
+    bottom: 20px;
+    left: 10px;
+    color: red;
+}
+input.send{
+    width: 200px;
+    background-color: var(--main-color);
+    color: #fff;
+    display: block;
+   padding: 8px 20px;
+   border-radius: 30px;
+border: 0;
+   font-weight: bold;
+   font-size: 17px;
+   margin: auto;
+}
+}
+
