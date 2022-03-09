@@ -62,22 +62,27 @@ body {
   color: var(--main-color);
 }
 
-.sidebar .sidebar-footer p {
-  color: #9C9AB3;
+.sidebar .sidebar-list li a.link:focus {
+  color: var(--main-color);
 }
 
-.sidebar .list-group-item {
+.sidebar .sidebar-list .list-group-item {
   position: static;
   display: inline;
   padding: 0;
   color: #212529;
   text-decoration: none;
-  background-color: transparent;
   border: 0;
+  background-color: transparent;
 }
 
-.sidebar .list-group-item:focus {
+.sidebar .sidebar-list .list-group-item.active {
+  background-color: transparent;
   color: var(--main-color);
+}
+
+.sidebar .sidebar-footer p {
+  color: #9C9AB3;
 }
 
 .intro {

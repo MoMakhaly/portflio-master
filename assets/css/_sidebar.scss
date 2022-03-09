@@ -36,9 +36,27 @@ display: none;
                 &:hover{
                     color: var(--main-color);
                 }
-                
+                &:focus{
+                    color: var(--main-color);
+                } 
             }
         }
+        
+    .list-group-item {
+        position: static;
+        display:inline;
+        padding: 0;
+        color: #212529;
+        text-decoration: none;
+        border: 0;
+        background-color: transparent;
+    }
+    .list-group-item.active {
+        
+        background-color: transparent;
+    color: var(--main-color);
+      
+    }
     }
     .sidebar-footer{
     p{
@@ -47,17 +65,5 @@ display: none;
     }
   
  
-    .list-group-item {
-        position: static;
-        display:inline;
-        padding: 0;
-        color: #212529;
-        text-decoration: none;
-        background-color:transparent;
-        border: 0;
-         &:focus{
-                    color: var(--main-color);
-                }
-    }
   
 }

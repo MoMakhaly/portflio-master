@@ -70,6 +70,3 @@ $(document).ready(function () {
 
     })
 })
-$("..sidebar .sidebar-list li a.link").click(function () {
-    $(this).css("color", "red")
-})
